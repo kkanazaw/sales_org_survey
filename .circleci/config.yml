@@ -27,7 +27,7 @@ jobs:
       - run: git config user.email $GITHUB_EMAIL
       - run: git fetch origin
       - run: git checkout gh-pages
-      - run: git merge master
+      - run: git merge master -q
       - run: npm i
       - run: npm run build
       - run: git add -A
