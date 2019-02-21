@@ -1,9 +1,6 @@
 import $ from 'jquery';
 
 $(document).ready(() => {
-  //buildテスト用
-  const debug = "debug";
-  //ここまで
   const calcScore = () => {
     const scores = Array(11).fill(0);
     scores[10] = 5;
